@@ -56,7 +56,9 @@ nav{
     background: scroll;
     height: inherit;
     border-radius: 10px;
-    align-items: center; 
+    align-items: center;
+    
+    
 }
 
 .alink:hover{
@@ -88,10 +90,10 @@ nav{
     justify-content: center;
     flex-direction: row;
 }
-/* .homepage p{
+.homepage p{
     align-items: center;
     width: 50%;
-} */
+}
 
 
 
@@ -126,17 +128,12 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 150px;
-    margin-top: 100px;
+    justify-content: start;
 }
 
 @media (max-width: 1366px){
 
-    .homepage p{
 
-        width: 50%;
-    }
     .first-message h1{
         margin-top: 60px;
     }
@@ -150,9 +147,6 @@ nav{
 }
 @media (max-width: 1920px){
 
-    .homepage p{
-        width: 30%;
-    }
     .first-message h1{
         margin-top: 80px;
     }

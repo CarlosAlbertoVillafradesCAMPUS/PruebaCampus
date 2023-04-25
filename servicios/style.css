@@ -88,7 +88,6 @@ nav{
 }
 .team-container{
     width: 100%;
-    
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -97,7 +96,7 @@ nav{
 
 
 /* contenedor tarjetas y tarjetas */
-div#contenedor-tarjetas{
+.contenedor-tarjetas{
     justify-content: center;
     display: flex;
     margin-top: 50px;
